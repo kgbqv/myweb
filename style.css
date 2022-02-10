@@ -11,6 +11,8 @@
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    font-family: CC_font;
+    font-size: 30px;
 }
   
   /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -26,5 +28,10 @@
 #endcard {
   margin: auto;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: CC_font;
+}
+
+@font-face {
+  font-family: CC_font;
+  src: url("CC\ Accidenz\ Commons-medium.otf")
 }
