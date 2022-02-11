@@ -2,6 +2,8 @@
     overflow: hidden;
     background-color: #333;
     margin: auto;
+    opacity: 75%;
+    float:left;
   }
   
   /* Navbar links */
@@ -10,7 +12,7 @@
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px;
+    padding: 1%;
     text-decoration: none;
     font-family: CC_font;
     font-size: 30px;
@@ -21,18 +23,42 @@
     position: fixed;
     top: 0;
     width: 100%;
+    overflow: scroll;
 }
 
-#loremipsum {
-    font-size: 50px;
-}
+
 #endcard {
   margin: auto;
   text-align: center;
   font-family: CC_font;
+  overflow: hidden;
+  background-color: #333;
+  margin: auto;
+  opacity: 75%;
+  padding:10px;
+}
+#endcard p {
+  display:block;
+  color:#f2f2f2;
 }
 
 @font-face {
   font-family: CC_font;
   src: url("CC\ Accidenz\ Commons-medium.otf")
+}
+html, body{ 
+  min-width:100%;
+}
+
+#endcard a:visited {
+  text-decoration:bold;
+  color:white;
+}
+#endcard a:link {
+  text-decoration:underline;
+  color:white;
+}
+#endcard a:hover{
+  color:green;
+  text-decoration: underline;
 }
