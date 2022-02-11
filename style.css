@@ -47,7 +47,8 @@
   src: url("CC\ Accidenz\ Commons-medium.otf")
 }
 html, body{ 
-  min-width:100%;
+  margin:0;
+  padding:0;
 }
 
 #endcard a:visited {
@@ -61,4 +62,12 @@ html, body{
 #endcard a:hover{
   color:green;
   text-decoration: underline;
+}
+
+body {
+  background-color: white;
+}
+
+#link {
+  float:right;
 }
