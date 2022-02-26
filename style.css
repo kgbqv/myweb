@@ -52,7 +52,7 @@ html, body{
 }
 
 #endcard a:visited {
-  text-decoration:none;
+  text-decoration: none !important;
   color:green;
 }
 #endcard a:link {
