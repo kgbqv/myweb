@@ -51,11 +51,8 @@ html, body{
   padding:0;
 }
 
-#endcard a:visited {
-  text-decoration: none !important;
-  color:green;
-}
-#endcard a:link {
+
+#endcard a {
   text-decoration:underline;
   color:white;
 }
